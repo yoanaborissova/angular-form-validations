@@ -33,6 +33,7 @@
 
   <p *ngIf="registerForm.controls.password.touched && registerForm.controls.password.errors?.required">This field is required.</p>
   <p *ngIf="registerForm.controls.password.touched && registerForm.controls.password?.errors?.pattern">The password has to contain at least one small letter, one capital letter, one digit and one special symbol.</p>
+
   <br>
 
   <button [disabled]="registerForm.invalid" type="submit">Register</button>

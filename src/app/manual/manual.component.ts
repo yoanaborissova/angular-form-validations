@@ -1,8 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {RegisterRequest} from '../models/RegisterRequest';
-import {ErrorModel} from '../models/ErrorModel';
-import {ValidationModel} from '../models/ValidationModel';
-import {ValidationErrors} from '@angular/forms';
 
 @Component({
   selector: 'app-manual',

@@ -18,6 +18,7 @@ export class ReactiveComponent implements OnInit {
     this.registerForm = this.fb.group(
       {
         username: ['', [Validators.required, Validators.minLength(10)]],
+        //TODO: Implement email logic 
         password: ['', [Validators.required, Validators.pattern('(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[@$!#^_+%*?&])[A-Za-z\\d@$#!%^*?&_+]+')]]
       }
     );
